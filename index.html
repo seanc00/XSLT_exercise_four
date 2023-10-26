@@ -15,14 +15,34 @@
         <p>
           Task: Given the following XML.
           Extract all of the names and ages 
-          of the students who got a grade A 
           and create an XHTML table.
         </p>
       </div>
       <div class="container">
  
         <div class="left">
-          <p>Example text</p>
+          <p>
+            This snippet will check the XML data for students 
+            with grade A and display their names/ages
+          </p>
+
+          <button onclick="">Add Data To Table</button>
+          <button onclick="">Remove Data From Table</button>
+
+          <table class="studentTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody id="studentTableBody">
+              <tr>
+                <td>N/A</td>
+                <td>N/A</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="right">
           <h3>Image of the XML data</h3>

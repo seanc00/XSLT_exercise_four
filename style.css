@@ -53,6 +53,11 @@ button:active {
 
   border-top: black solid 1px;
 }
+.left > p {
+  text-align: center;
+  width: 350px;
+  margin: 0 0 10px 0;
+}
 table {
   border: solid 1px black;
   padding: 5px;
